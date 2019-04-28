@@ -4,7 +4,7 @@ Single-chip Microcomputer Programming
 
 # 1. Introduction
 
-A Polling System is one in which people can cast or record their votes when making decisions either on matters like deciding who the best candidate for a higher-up office within an organization would be or something of a smaller nature like deciding a class representative. Such kind of decision making is tough to make without outside influence of peers since half the time there isn’t any provision for anonymity of the voter and proper record keeping. To overcome such a problem, I decided to make a polling system based on C8051F410 microcontroller. 
+A Polling System is one in which people can cast or record their votes when deciding a candidate for a particular position. Such kind of decision making is tough to make without outside influence of peers since half the time there isn’t any provision for anonymity of the voter and proper record keeping. To overcome such a problem, I decided to make a polling system based on C8051F410 microcontroller. 
 
 # 2. Design
 The main component in the circuit is C8051F410 controller. A 4x4 keypad attached to the chip is used for casting the votes. For the system to be effective there has to be at least two buttons assigned for each vote. Each vote has to count for only one person and an incremental count assigned to it. The system has to display what is being voted on and the options for the voters to choose from. There has to be no biased answers that may lead to misinterpretation on the vote count. At least two options have to be provided to be voted on.
